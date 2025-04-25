@@ -1,33 +1,27 @@
-Task Manager
-Overview
-The Task Manager is a Spring Boot-based backend application designed to manage tasks. It provides CRUD operations and integrates with a frontend (Thymeleaf or any other template engine) to manage task-related functionality efficiently.
+# Task Manager
 
-Features
-Task Management: Create, Read, Update, and Delete tasks.
+## Overview
+Welcome to the **Task Manager** project! This backend application, built using **Spring Boot**, helps you manage tasks with essential CRUD (Create, Read, Update, Delete) operations. It provides a repository layer to handle database interactions and integrates with a frontend (using **Thymeleaf** or another template engine) for task management functionalities.
 
-Database Integration: Uses Spring Data JPA for database interactions.
+---
 
-Frontend Integration: Integrates with a frontend for managing tasks through a web interface.
+## Features
 
-Repository Layer: Implements the repository pattern for database operations.
+- **CRUD Operations**: Add, View, Edit, and Delete tasks.
+- **Database Integration**: Utilizes **Spring Data JPA** for database management.
+- **Frontend Integration**: Frontend integrated with **Thymeleaf** or other template engines.
+- **Repository Layer**: Implements **Repository Pattern** for seamless database interaction.
+- **Simple and Clean Architecture**: Follows industry best practices for maintainability.
 
-Tech Stack
-Backend: Spring Boot
+---
 
-Database: H2 (or any relational database of your choice)
+## Tech Stack
 
-Frontend: Thymeleaf
+- **Backend**: [Spring Boot](https://spring.io/projects/spring-boot)
+- **Database**: [H2 Database](https://www.h2database.com) 
+- **Frontend**: [Thymeleaf](https://www.thymeleaf.org) 
+- **Version Control**:  [GitHub](https://github.com)
 
-Version Control: GitHub
+---
 
-Setup Instructions
-Prerequisites
-Before running the project, make sure you have the following installed:
 
-JDK 8 or higher
-
-Maven or Gradle (for dependency management)
-
-An IDE (e.g., IntelliJ IDEA, Eclipse) or text editor
-
-Git (for version control)
